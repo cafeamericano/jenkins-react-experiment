@@ -5,7 +5,7 @@ pipeline {
 
     stages {
 
-        state('Install dependencies') {
+        stage('Install dependencies') {
             steps {
                 sh 'npm install'
             }
@@ -16,6 +16,6 @@ pipeline {
                 sh 'npm run build' 
             }
         }
-        
+
     }
 }
