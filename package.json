@@ -1,7 +1,7 @@
 {
-  "name": "@mfarmer5102/subOne",
+  "name": "@mfarmer5102/platform",
   "scripts": {
-    "start": "webpack serve --port 9001",
+    "start": "webpack serve --port 9003",
     "start:standalone": "webpack serve --env standalone",
     "build": "webpack --mode=production",
     "analyze": "webpack --mode=production --env analyze",
@@ -49,6 +49,7 @@
   },
   "dependencies": {
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
   }
 }
